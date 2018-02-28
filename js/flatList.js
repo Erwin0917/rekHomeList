@@ -4,7 +4,7 @@
     const sortBtns = document.querySelectorAll("[data-sort]");
 
     const config = {
-        url: "http://localhost:3000/flats_list.JSON",
+        url: "https://erwin0917.github.io/rekHomeList/flats_list.JSON",
         wrapper: ".flats__list tbody",
         perPage: 10,
         system: {
