@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zadanie rekrutacyjne</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="nav nav__main">
+            <button class="nav__mobileBtn nav__mobileBtn">
+                <span class="arrow"></span>Menu</button>
+            <ul>
+                <li class="nav__item">
+                    <a href="#">Inwestycja</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#list">Dostępność</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#plan">Rzut mieszkań</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="main__slider__wrapper">
+            <div class="main__slider__slides">
+                <img class="slider__item slider__item--active" src="./img/slider1.jpg" alt="Slajd 1 - ładne osiedle">
+                <img class="slider__item" src="./img/slider2.jpg" alt="Slajd 2 - ładne osiedle">
+                <img class="slider__item" src="./img/slider3.jpg" alt="Slajd 3 - ładne osiedle">
+                <img class="slider__item" src="./img/slider4.jpg" alt="Slajd 4 - ładne osiedle">
+            </div>
+
+            <div class="main__slider__nav">
+                <button class="nav__prev">Prev</button>
+                <button class="nav__next">Next</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="flats__wrapper" id="list">
+            <div class="options__wrapper">
+
+                <form class="chooseFloor multiselect__wrapper" id="selectFloor">
+                    <div class="multiselect">
+                        <div class="selectBox">
+                            <select>
+                                <option>kondygnacja</option>
+                            </select>
+                            <div class="overSelect"></div>
+                        </div>
+                        <div class="checkboxes">
+
+                            <input type="checkbox" data-filter="floor" id="pietro">
+                            <label for="pietro">piętro</label>
+
+                            <input type="checkbox" data-filter="floor" id="parter">
+                            <label for="parter">parter</label>
+                        </div>
+                    </div>
+                </form>
+
+                <form class="chooseAdditional multiselect__wrapper" id="selectAdditional">
+                    <div class="multiselect">
+                        <div class="selectBox">
+                            <select>
+                                <option>ogródek/strych</option>
+                            </select>
+                            <div class="overSelect"></div>
+                        </div>
+                        <div class="checkboxes">
+
+                            <input type="checkbox" data-filter="adds" id="ogrodek">
+                            <label for="ogrodek">ogródek</label>
+
+                            <input type="checkbox" data-filter="adds" id="strych">
+                            <label for="strych">strych</label>
+                        </div>
+                    </div>
+                </form>
+
+                <form class="chooseStatus multiselect__wrapper" id="selectStatus">
+                    <div class="multiselect">
+                        <div class="selectBox">
+                            <select>
+                                <option>status</option>
+                            </select>
+                            <div class="overSelect"></div>
+                        </div>
+                        <div class="checkboxes">
+
+                            <input type="checkbox" data-filter="status" id="wolny">
+                            <label for="wolny">wolny</label>
+
+                            <input type="checkbox" data-filter="status" id="rezerwacja">
+                            <label for="rezerwacja">rezerwacja</label>
+
+                            <input type="checkbox" data-filter="status" id="sprzedany">
+                            <label for="sprzedany">sprzedany</label>
+                        </div>
+                    </div>
+                </form>
+
+                <form class="choosePrice multiselect__wrapper" id="selectPrice">
+                    <div class="multiselect">
+                        <div class="selectBox">
+                            <select>
+                                <option>cena</option>
+                            </select>
+                            <div class="overSelect"></div>
+                        </div>
+                        <div class="checkboxes">
+
+                            <input type="checkbox" data-filter="price" id="price1">
+                            <label for="price1">do 150tys.</label>
+
+                            <input type="checkbox" data-filter="price" id="price2">
+                            <label for="price2">150tys. - 200tys.</label>
+
+                            <input type="checkbox" data-filter="price" id="price3">
+                            <label for="price3">200tys. - 300tys.</label>
+
+                            <input type="checkbox" data-filter="price" id="price4">
+                            <label for="price4">300tys. - 400tys.</label>
+
+                            <input type="checkbox" data-filter="price" id="price5">
+                            <label for="price5">od 400tys.</label>
+                        </div>
+                    </div>
+                </form>
+                <button class="btn options__filtrBtn">FILTROWANIE</button>
+            </div>
+
+            <div class="table__mobileBtn">
+                <button class="table__mobileBtn__right"></button>
+                <button class="table__mobileBtn__left table__mobileBtn--off"></button>
+
+            </div>
+            <table class="flats__list">
+                <thead>
+                    <tr>
+                        <th class="flat__number">nr budynku
+                            <br>mieszkania
+                            <span class="sort__up" data-sort="flat_nr"></span>
+                            <span class="sort__down" data-sort="flat_nr"></span>
+                        </th>
+                        <th class="flat__floor">kondygnacja
+                            <span class="sort__up" data-sort="floor"></span>
+                            <span class="sort__down" data-sort="floor"></span>
+                        </th>
+                        <th class="flat__size">powierzchnia
+                            <br>użytkowa
+                            <span class="sort__up" data-sort="main_size"></span>
+                            <span class="sort__down" data-sort="main_size"></span>
+                        </th>
+                        <th class="flat__additional">powierzchnia
+                            <br>ogródka/strychu
+                            <span class="sort__up" data-sort="adds_size"></span>
+                            <span class="sort__down" data-sort="adds_size"></span>
+                        </th>
+                        <th class="flat__price">cena
+                            <br>brutto
+                            <span class="sort__up" data-sort="price"></span>
+                            <span class="sort__down" data-sort="price"></span>
+                        </th>
+                        <th>plan</th>
+                        <th class="flat__status">status
+                            <span class="sort__up" data-sort="status"></span>
+                            <span class="sort__down" data-sort="status"></span>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+            </table>
+
+            <div class="flats__pagination">
+                <ol>
+
+                </ol>
+            </div>
+
+        </section>
+
+        <section class="flat__plan" id="plan">
+            <div class="wrapper flex">
+                <div class="plan_img">
+                    <img src="img/plan1.png" alt="Plan parteru">
+                    <div class="zoom__wrapper">
+                        <button class="zoom-up">+</button>
+                        <button class="zoom-down">-</button>
+                    </div>
+                </div>
+                <div class="plan_desc flex">
+                    <div class="plan_desc__buttonsWrapper flex">
+                        <button class="btn" data-part="1">PARTER LEWY</button>
+                        <button class="btn" data-part="2">PARTER PRAWY</button>
+                        <button class="btn" data-part="3">PIĘTRO LEWE</button>
+                        <button class="btn" data-part="4">PIĘTRO PRAWE</button>
+                    </div>
+                    <div class="plan_desc__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>powierzchnia użytkowa</th>
+                                    <th>64,32 m²</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="circle">1</span> salon z aneksem kuchennym</td>
+                                    <td>25,50 m²</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="circle">2</span> łazienka</td>
+                                    <td>6,33 m²</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="circle">3</span> pokój</td>
+                                    <td>12,05 m²</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="circle">4</span> pokój</td>
+                                    <td>9,53 m²</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="circle">5</span> garderoba</td>
+                                    <td>1,62 m²</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="circle">6</span> hol</td>
+                                    <td>5,5 m²</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="circle">7</span> przedpokój</td>
+                                    <td>3,79 m²</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="contact" id="contact">
+        <div class="wrapper">
+                <span class="enve"></span><h2> KONTAKT</h2>
+
+            <div class="flex">
+
+                <div class="col col--1">
+                    <img src="/img/logoFooter.png" alt="Logo Stowarzyszenie Budownictwa Domów i Mieszkań">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde repellat id, veritatis dolores, debitis
+                        atque quia illo facere necessitatibus maiores temporibus hic delectus eum mollitia, inventore ullam.
+                        Dolorem, aliquam explicabo!</p>
+                </div>
+                <div class="col col--2">
+                    <ul>
+                        <li>Lorem Ipsum Sp. z o.o.</li>
+                        <li>32-020 Kraków, Floriańska 1/1</li>
+                    </ul>
+                    <ul>
+                        <li>+48 777 777 777</li>
+                        <li>kontakt@kontakt.com.pl</li>
+                    </ul>
+                    <ul>
+                        <li>KRS: 0000222 33</li>
+                        <li>NIP: 679-222-22-22</li>
+                        <li>REGON: 123456789</li>
+                    </ul>
+
+
+                </div>
+                <div class="col col--3">
+                    <form>
+                        <input type="text" placeholder="imię i nazwisko" data-valide="true">
+                        <input type="email" placeholder="e-mail" data-valide="true">
+                        <textarea placeholder="treść wiadomości" data-valide="true"></textarea>
+                        <p class="valideText">AXK65GH</p>
+                        <input type="text" placeholder="przepisz" class="valideInput" data-valide="capta">
+                        <button class="btn sendForm">WYSŁANIE FORMULARZA</button>
+
+                    </form>
+                </div>
+
+                <button class="btn showContact">POKAŻ FORMULARZ<span class="arrow"></span></button>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/flatList.js"></script>
+    <script src="js/flatPlan.js"></script>
+    <script src="js/validForm.js"></script>
+</body>
+
+</html>

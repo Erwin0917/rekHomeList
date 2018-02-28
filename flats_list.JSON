@@ -1,0 +1,342 @@
+{
+    "1":{
+        "flat_nr": "P11A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "81",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "2":{
+        "flat_nr": "P11B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "3":{
+        "flat_nr": "P12A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "84",
+        "price": "120000",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "4":{
+        "flat_nr": "P12B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "5":{
+        "flat_nr": "P13A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "82",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "6":{
+        "flat_nr": "P13B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "200500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "7":{
+        "flat_nr": "P14A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "89",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "8":{
+        "flat_nr": "P14B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "359500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "9":{
+        "flat_nr": "P15A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "87",
+        "price": "489500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "10":{
+        "flat_nr": "P15B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "11":{
+        "flat_nr": "P16A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "81",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "12":{
+        "flat_nr": "P16B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "13":{
+        "flat_nr": "P17A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "84",
+        "price": "289500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "14":{
+        "flat_nr": "P17B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "15":{
+        "flat_nr": "P18A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "82",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "16":{
+        "flat_nr": "P18B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "17":{
+        "flat_nr": "P19A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "89",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "18":{
+        "flat_nr": "P19B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "19":{
+        "flat_nr": "P20A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "87",
+        "price": "289500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "20":{
+        "flat_nr": "P20B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "21":{
+        "flat_nr": "P21A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "81",
+        "price": "289500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "22":{
+        "flat_nr": "P21B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "23":{
+        "flat_nr": "P22A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "84",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "24":{
+        "flat_nr": "P22B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "25":{
+        "flat_nr": "P23A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "82",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "26":{
+        "flat_nr": "P23B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "27":{
+        "flat_nr": "P24A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "89",
+        "price": "289500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "28":{
+        "flat_nr": "P24B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "29":{
+        "flat_nr": "P25A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "87",
+        "price": "289500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "30":{
+        "flat_nr": "P25B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "sprzedany"
+    },
+    "31":{
+        "flat_nr": "P31A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "81",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "32":{
+        "flat_nr": "P31B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "rezerwacja"
+    },
+    "33":{
+        "flat_nr": "P32A",
+        "floor": "parter",
+        "main_size" : "64,32",
+        "adds": "ogródek",
+        "adds_size": "84",
+        "price": "289500",
+        "plan": "#",
+        "status": "wolny"
+    },
+    "34":{
+        "flat_nr": "P32B",
+        "floor": "piętro",
+        "main_size" : "66,57",
+        "adds": "strych",
+        "adds_size": "15",
+        "price": "259500",
+        "plan": "#",
+        "status": "wolny"
+    }
+}
